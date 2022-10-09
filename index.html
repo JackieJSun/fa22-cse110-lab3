@@ -12,13 +12,13 @@
         <section>
         <h1><strong>MEETING MINUTES FOR TEAM 9</strong></h1>
         <span><i>Discussing possible team-building exercises</i></span><br>
-        <span><em>October 5, 2022</em></span><br>
+        <span><em>October 5, 2022</em></span><br><br>
         <details>
             <summary><b>Team-Building Exercises</b></summary>
             <p>Every team must participate in a team-building <br>
                 exercise and hopefully let the group members <br>
                 get to know each other better.</p><br>
-        </details>
+        </details><br>
         <hr>
         <h2><i>Table of Contents</i></h2>
         <nav>
@@ -27,7 +27,7 @@
             <li><a href="#agenda">Meeting Agenda</a></li>
             <li><a href="#comments">Miscellaneous Comments</a></li>
             <li><a href="#recording">Meeting Recording</a></li>
-            <li><a href="#subscription">Meeting Minutes Subscription</a></li>
+            <li><a href="#subscription">Subscription</a></li>
           </ul>
         </nav>
         <hr>
@@ -63,8 +63,8 @@
             <li>10:10 AM: Vote results released</li>
         </ol>
         <div><strong>Team-Building Exercise Vote Results:</strong></div>
-        <img src="images/vote_results.png" alt="Vote Results"><br><br>
-        <div>Previous Meeting Agenda Items to be Completed</div>
+        <img src="images/vote_results.png" alt="Vote Results" width="750" height="250"><br><br>
+        <h3>Previous Meeting Agenda Items to be Completed</h3>
         <ol>
             <li>10:20 AM: Elaborate on team roles and functions </li>
             <li>10:30 AM: Decide on weekly meeting time and location</li>
@@ -78,15 +78,16 @@
             <li>Is Among Us considered a team-building exercise?</li>
             <li>How many of these exercises should we have over the span of the quarter?</li>
         </ul>
+        </section>
         <hr>
         <section>
         <h2 id="recording"><b>Meeting Recording</b></h2>
         <p>The meeting has been recorded and is available in both audio and video form.</p>
         <p>The video format is mp4 and the audio format is mp3.</p>
         <div><b>Video Recording:</b></div>
-        <video width="320" height="240" controls>
+        <video width="400" height="300" controls>
             <source src="recording/video_recording.mp4" type="video/mp4">
-        </video>
+        </video><br><br>
         <div><b>Audio Recording:</b></div>
         <audio controls>
             <source src="recording/audio_recording.mp3" type="audio/mp3">
@@ -96,7 +97,7 @@
     <footer>
         <section>
             <hr>
-            <h2 id="subscription"><b>Meeting Minutes Subscription</b></h2>
+            <h2 id="subscription"><b>Subscription</b></h2>
             <p>Subscribe to get updates when the next Team 9 meeting minutes are released.</p>
             <form>
                 <fieldset>
@@ -123,18 +124,19 @@
                     <div>Send newsletters?</div>
                     <input type="checkbox"><br><br>
                     <div>How often would you like to receive updates?</div>
-                    <datalist id="datalist_updates"> 
+                    <input list="update_datalist">
+                    <datalist id="update_datalist"> 
                         <option value="Daily">
                         <option value="Weekly">
                         <option value="Biweekly">
                         <option value="Monthly">
-                    </datalist><br>
+                    </datalist><br><br>
                     <div>Why did you choose to subscribe?</div>
                     <textarea rows="5" cols="60">Your answer here.</textarea><br><br>
                     <button>Subscribe!</button>
                 </fieldset>
             </form>
-            </section>
+        </section>
     </footer>
 </body>
 </html>
