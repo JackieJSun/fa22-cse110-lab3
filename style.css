@@ -127,3 +127,18 @@ a:active {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
+/*Any paragraph that follows a heading is formatted*/
+div div {
+    color: purple;
+}
+
+/*Any paragraph that follows a heading is formatted*/
+h2 + p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+/*All unordered lists after h3 are formatted*/
+h3 ~ ul {
+    color: brown;
+}
