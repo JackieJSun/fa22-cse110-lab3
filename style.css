@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+
 #tableofcontents {
     margin-left: 550px;
     margin-right: 0px;
@@ -7,7 +8,7 @@
     margin-bottom: 0px;
 }
 
-li {
+*.li {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -15,7 +16,7 @@ li {
     margin: 1vmax 0vmax 0vmax 45vmax
 }
 
-#agenda {
+#agenda, #comments {
     border: 2px solid black;
     padding-left: 1em;
     padding-bottom: 0.5em;
@@ -38,5 +39,48 @@ h3.agenda2 {
     border-width: 1px;
     border-radius: 0em;
     margin: 0vmax 31.5vmax 0vmax 35vmax
-    
+}
+
+h3.agenda3, h3.agenda4 {
+    width: 100px;
+    height: 20px;
+}
+
+p.standup {
+    display: inline;
+}
+
+p.newrules {
+    display: block;
+    color:red;
+    text-decoration: underline;
+}
+
+h3[class] {
+    background-color: aquamarine
+}
+
+img[src] {
+    max-width: 750px;
+    max-height: 250px;
+}
+
+#important {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    background-color: pink
+}
+
+#teambuilding {
+    position: relative;
+    left: 30px;
+}
+
+a:hover {
+    background-color: yellow
+}
+
+a:active {
+    background-color: orange
 }
