@@ -2,6 +2,9 @@
 
 #tableofcontents {
     margin-left: 550px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 li {
@@ -12,3 +15,28 @@ li {
     margin: 1vmax 0vmax 0vmax 45vmax
 }
 
+#agenda {
+    border: 2px solid black;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+
+.results {
+    padding: 0.5em 1em 0.5em 1em
+}
+
+h3.agenda1 {
+    border: 1px solid black;
+    margin: 0vmax 44vmax 0vmax 35vmax
+}
+
+h3.agenda2 {
+    border-style: dotted;
+    border-color: red;
+    border-width: 1px;
+    border-radius: 0em;
+    margin: 0vmax 31.5vmax 0vmax 35vmax
+    
+}
