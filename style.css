@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-
+/* Margins */
 #tableofcontents {
-    margin-left: 550px;
+    margin-left: 500px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-*.li {
+@media only screen and (max-width: 600px) {
+    /* If screen too thin, makes text smaller*/
+    * {
+        font-size: 10px;
+    }
+}
+
+/*
+Adds font to list items
+*/
+li {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -83,4 +93,37 @@ a:hover {
 
 a:active {
     background-color: orange
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: right;
+}
+  
+.flex-container > div {
+    font-family: 'Oswald', sans-serif;
+    background-color: lightcyan;
+    margin: 3px;
+    padding: 1px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+  
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 }
