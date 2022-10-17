@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#tableofcontents {
+    margin-left: 550px;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+}
+
+#attendance {
+    margin: 1vmax 0vmax 0vmax 45vmax
+}
+
